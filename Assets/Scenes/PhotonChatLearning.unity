@@ -1310,7 +1310,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   userId: 
-  messageInputGui: {fileID: 1035582541}
+  messageInputGui: {fileID: 48223530}
   currentChannel: 
   joinChatWindow: {fileID: 404457322}
   chatRoomWindow: {fileID: 1186837531}
