@@ -10,20 +10,24 @@ using UnityEngine.UI;
 
 public class StartMenuPhotonManager : MonoBehaviourPunCallbacks
 {
+    [Header("Menus")]
     public TextMeshProUGUI ConnectingToServerText;
     public GameObject InputNameMenu;
+    public GameObject SelectOrCreateRoomMenu;
+    public GameObject RoomMenu;
+    [Header("Input Name Menu")]
     public TextMeshProUGUI InputNameText;
     public TextMeshProUGUI InputRoomNameText;
     public Button InputNameStartButton;
     public Animation InputNameFieldMoveUp;
-    public GameObject SelectOrCreateRoomMenu;
+    [Header("Select or Create Room Meue")]
     public Animation SelectOrCreateRoomMenuAppear;
     public RoomListing RoomListingPrefab;
     public Transform RoomListContent;
     public Animation JoinRoomAnimation;
+    [Header("Room Menu")]
     public PlayerListing PlayerListingPrefab;
     public Transform PlayerListContent;
-    public GameObject RoomMenu;
     public Button StartGameButton;
     public Button PreparingOrReadyButton;
     public TextMeshProUGUI PreparingOrReadyText;

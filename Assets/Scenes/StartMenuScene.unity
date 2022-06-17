@@ -1247,18 +1247,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ConnectingToServerText: {fileID: 1859204500}
   InputNameMenu: {fileID: 2079413840}
+  SelectOrCreateRoomMenu: {fileID: 1938556093}
+  RoomMenu: {fileID: 77002876}
   InputNameText: {fileID: 1974731045}
   InputRoomNameText: {fileID: 1535863546}
   InputNameStartButton: {fileID: 1094183196}
   InputNameFieldMoveUp: {fileID: 201322273}
-  SelectOrCreateRoomMenu: {fileID: 1938556093}
   SelectOrCreateRoomMenuAppear: {fileID: 1938556096}
   RoomListingPrefab: {fileID: 586961258606126156, guid: b66ad0c1691e1444fb8bd2e801d015fa, type: 3}
   RoomListContent: {fileID: 931386951}
   JoinRoomAnimation: {fileID: 77002879}
   PlayerListingPrefab: {fileID: -7730453012328131751, guid: e52564ba682723843af9fa757f5e96df, type: 3}
   PlayerListContent: {fileID: 21139533}
-  RoomMenu: {fileID: 77002876}
   StartGameButton: {fileID: 1818690731}
   PreparingOrReadyButton: {fileID: 258732469}
   PreparingOrReadyText: {fileID: 1652452719}
@@ -1434,7 +1434,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &467437591
 RectTransform:
   m_ObjectHideFlags: 0
